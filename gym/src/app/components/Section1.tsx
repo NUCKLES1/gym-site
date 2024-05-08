@@ -50,15 +50,15 @@ const Section1 = () => {
     <div className="w-[95%] justify-between section1 h-[100vh]">
       <Navbar />
       <div className="w-full justify-between flex mt-16 h-[85%]">
-        <div className="w-[75%] h-[70%] radius backy">
+        <div className="w-[75%] h-[70%] poppins radius backy">
           <p className="text-5xl bold text-white max-sm:pl-6 pl-10 pt-16">NEVER</p>
           <p className="text-5xl bold gold-text pl-10 max-sm:pl-6">STOP</p>
           <p className="text-5xl bold text-white max-sm:pl-6 pl-10">TRAINING</p>
-          <button className="gold moveup text-[18px] max-sm:ml-6  py-4 px-8 bold text-black ml-12 mt-6 radius">
+          <button className="gold moveup opening text-[18px] max-sm:ml-6  py-4 px-8 bold text-black ml-12 mt-6 radius">
             Get started
           </button>
         </div>
-        <div className="backy1 w-[23%] radius h-full"></div>
+        <div className="backy1 w-[23%] max-sm:h-[88%] radius h-full"></div>
         <Image
           id="man"
           className="h-full w-[44%] max-sm:hidden manly absolute man"
@@ -68,7 +68,7 @@ const Section1 = () => {
       </div>
       <div
         id="move"
-        className="flex w-[40%] radius2 relative max-sm:top-[-20] max-sm:w-[70%] top-[-22%] whitesmoke h-[22%]"
+        className="flex w-[40%] radius2 max-sm:hidden relative max-sm:top-[-24.5%] max-sm:w-[74%] top-[-22%] whitesmoke h-[22%] max-sm:h-[15%]"
       >
         <div id="move-text" className="flex w-full">
           <div className=" ml-10 max-sm:ml-6 text-[1.2em] max-sm:text-[1em] mt-5">
@@ -76,7 +76,25 @@ const Section1 = () => {
             <p className="bold">happy community</p>
             <p>of customers</p>
           </div>
-          <div className="w-[6rem] h-[6rem] bg-black ml-[23%] mt-5 rounded-full">
+          <div className="w-[6rem] h-[6rem] bg-black ml-[23%] max-sm:ml-[5%] mt-5 rounded-full">
+            <Image
+              src={lol}
+              className="w-[5rem] h-[5rem] mt-[0.5rem] ml-[0.5rem] rounded-full"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flex w-[40%] radius2 relative max-sm:top-[-24.5%] max-sm:w-[74%] top-[-22%] whitesmoke h-[22%] max-sm:h-[15%]"
+      >
+        <div className="flex w-full">
+          <div className=" ml-10 max-sm:ml-6 text-[1.2em] max-sm:text-[1em] mt-5">
+            <p>Be part of our</p>
+            <p className="bold">happy community</p>
+            <p>of customers</p>
+          </div>
+          <div className="w-[6rem] h-[6rem] bg-black ml-[23%] max-sm:ml-[5%] mt-5 rounded-full">
             <Image
               src={lol}
               className="w-[5rem] h-[5rem] mt-[0.5rem] ml-[0.5rem] rounded-full"

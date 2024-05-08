@@ -32,6 +32,7 @@ const Section3 = () => {
           duration: 1,
         });
 
+
         gsap.to("#stagger", {
           scrollTrigger: {
             trigger: ".section2",
@@ -105,13 +106,13 @@ const Section3 = () => {
             width:"55%",
             left: "45%",
           });
-      });
+      },[]);
   return (
-    <div className="w-[95%] section3 justify-between h-[100vh]">
+    <div className="w-[95%] section3 justify-between max-sm:mt-[40%] h-[100vh]">
      <div className="w-full justify-between mt-16 h-[85%]">
-        <div className='letter text-6xl'>
+        <div className='letter text-6xl poppins'>
             <p className="translate-y-40 moveups">Training</p>
-            <p className='bold translate-y-40 moveups'>Teachers</p>
+            <p className='bold translate-y-40 poppins moveups'>Teachers</p>
         </div>
         <div className='w-full mt-6 gap-[2%] max-sm:gap-0 h-[75%] flex max-md:block'>
          <div className='w-[32%] max-sm:w-full max-sm:h-[25rem] h-full translate-y-40 moveups relative radius whitesmoke'>

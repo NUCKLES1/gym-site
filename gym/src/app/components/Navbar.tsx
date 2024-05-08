@@ -14,14 +14,14 @@ const Navbar = () => {
 
    
   return (
-    <div id="nav" className="w-[94%] h-[10%] fixed opacity-0 translate-y-[-5rem] justify-between flex">
-      <div className="w-[9%] flex justify-between pt-2">
-        <div className="w-[3rem] h-[3rem] gold rounded-full">
+    <div id="nav" className="w-[94%] h-[10%] fixed max-sm:fixed opacity-0 translate-y-[-5rem] justify-between flex">
+      <div className="w-[9%] max-sm:w-[50%] flex justify-between max-sm:justify-start pt-2">
+        <div className="w-[3rem] h-[3rem]  gold rounded-full">
           <Image src={dum} alt="" className="ml-2 rotate-[30deg] mt-2" />
         </div>
-        <div className="w-[3rem] h-[3rem] bg-black rounded-full"></div>
+        <div className="w-[3rem] h-[3rem] bg-black max-sm:ml-3 rounded-full"></div>
       </div>
-      <ul className="w-[40%] flex justify-between mt-4 max-md:hidden">
+      <ul className="w-[40%] flex opening justify-between mt-4 max-md:hidden">
         <li>home</li>
         <li>about us</li>
         <li>services</li>
